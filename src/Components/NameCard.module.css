@@ -1,0 +1,40 @@
+.Component{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 400px;
+   
+    box-sizing: border-box;
+    object-fit: contain;
+    padding: 10px 20px;
+    position: relative;
+}
+img{
+    border-radius: 100%;    
+}
+.Image{
+    display: flex;
+    align-self: center;
+    margin-right: 2%;
+}
+.name{
+font-weight: 700;
+}
+.email{
+    font-weight: 500;
+}
+.address{
+    font-weight: 400;
+    font-size: smaller;
+}
+.Details{
+    margin-right: 3%;
+}
+.code{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 10;
+    font-size: small;
+    position: absolute;
+    right: 2%;
+}
